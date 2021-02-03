@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap');
+
+.my-bg-grey {
+    background-color: rgb(34, 34, 34);
+}
+.font-grot{
+    font-family: 'Darker Grotesque', sans-serif;
+}
