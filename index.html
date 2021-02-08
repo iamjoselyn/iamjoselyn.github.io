@@ -2,74 +2,257 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fa/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    section
+<body class="my-bg-grey">
+    <section id="section1" class="box-border h-screen w-full">
+        <span class="font-grot text-white text-md tracking-widest fixed top-6 left-10">JOSELYN CACERES</span>
+        <div class="fixed top-6 right-10">
+            <ul class="">
+                <li class="inline font-grot text-gray-400 hover:underline cursor-pointer mx-2">english</li>
+                <li class="inline font-grot text-gray-400 hover:underline cursor-pointer mx-2">español</li>
+                <li class="inline font-grot text-gray-400 hover:underline cursor-pointer mx-2">中文</li>
+            </ul>
+        </div>
+        <div class="w-96 transform -rotate-90 fixed top-1/2 -left-36 z-10">
+            <ul class="flex items-center justify-between">
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a class="" href="#section2">ABOUT</a></li>
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a class="" href="#section3">MY WORK</a></li>
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a class="" href="#section4">CONTACT</a></li>
+                <li class="inline text-white hover:text-pink-500 transform rotate-90 ">
+                    <a href="https://github.com/iamjoselyn" class="px-2">
+                        <svg class="stroke-current fill-current w-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549" xml:space="preserve" fill="#222222"><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+                        c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+                        c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+                        c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+                        c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+                        c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+                        c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+                        c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+                        c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+                        c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+                        c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+                        c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+                        c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+                        c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+                        c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+                        c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+                        c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+                        c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+                        c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+                        C438.536,184.851,428.728,148.168,409.132,114.573z"></path></svg>
+                    </a>
+                </li>
+                <li class="inline transform rotate-90 text-white hover:text-blue-500">
+                    <a href="https://www.linkedin.com/in/joselyn-caceres/" class="px-2">
+                        <svg class="stroke-current fill-current w-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549" xml:space="preserve" fill="#222222"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-96 transform rotate-90 fixed top-1/2 -right-36 z-10">
+            <ul class="flex items-center justify-between">
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a href="#section2">ABOUT</a></li>
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a href="#section3">MY WORK</a></li>
+                <li class="inline font-grot text-md text-white tracking-widest hover:text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500"> <a href="#section4">CONTACT</a></li>
+                <li class="inline  text-white hover:text-pink-500 transform -rotate-90">
+                    <a href="https://github.com/iamjoselyn" class="px-2">
+                        <svg class="stroke-current fill-current w-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549" xml:space="preserve" fill="#222222"><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+                        c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+                        c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+                        c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+                        c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+                        c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+                        c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+                        c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+                        c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+                        c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+                        c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+                        c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+                        c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+                        c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+                        c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+                        c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+                        c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+                        c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+                        c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+                        C438.536,184.851,428.728,148.168,409.132,114.573z"></path></svg>
+                    </a>
+                </li>
+                <li class="inline transform -rotate-90 text-white hover:text-blue-500">
+                    <a href="https://www.linkedin.com/in/joselyn-caceres/" class="px-2">
+                        <svg class="stroke-current fill-current w-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549" xml:space="preserve" fill="#222222"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button id="chatBtn" class="fixed right-11 bottom-6 animate-bounce">
+            <i class="fa fa-comments fa-3x " aria-hidden="true"></i>
+        </button>
+    </section>
 
+    <section id="section2" class="h-screen">
+        <div class="max-w-5xl mx-auto pt-40 text-white flex justify-between antialiased">
+            <figure class="w-1/2 mx-8">
+                <img class="rounded-full" src="./img/profile-pic.jpg" alt="profile picture" width="430px" height="430px">
+                <p class="text-center text-sm mt-4 text-gray-400">This is me with some filters ...</p>
+            </figure>
+            <article class="w-1/2 mx-8">
+                <h2 class="text-5xl mb-8"> <span>👋</span> Hi there!</h2>
+                <p class="text-5xl mb-8">I'm a <span class="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500">Web Developer</span> based in Peru China Spain.</p>
+                <p class="text-xl whitespace-pre-wrap">Glad to meet you! 
+I'm Joselyn, a Full Stack Web Developer. I got into this industry by curiosity and I'm still enjoying being part of it!
+                
+I was born in Peru but I grow up in Europe. I moved to China to finish my Bachelor Degree and I ended up living in New Zealand. 
 
-
-    <script type="module" src="./js/GLTFLoader.js"></script>
-    <script type="module" src="./js/OrbitControls.js"></script>
-    <script type="module">
-
-        import * as THREE from 'https://unpkg.com/three/build/three.module.js';
-        // import { OrbitControls } from './js/OrbitControls.js'
-        import { GLTFLoader } from "./js/GLTFLoader.js";
-
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(
-            75,
-            window.innerWidth / window.innerHeight,
-            0.01,
-            1000
-        );
+Back in Spain, I specialized as a Full Stack Dev and I've been freelancing for the last months. 
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="section3" class="max-w-7xl mx-auto h-screen pt-40 text-center">
+        <h1 class="text-white text-5xl inline-block mb-20">Latests Projects<span>👩‍💻</span></h1>
+        <p class="mb-20 text-white text-xl">Here are some of the projects I've been working on recently. Want to see more? <a href="#" class="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500">Email me</a></p>
         
-        const renderer = new THREE.WebGLRenderer({ antialias: true });
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
-        // const controls = new OrbitControls( camera, renderer.domElement );
-        const loader = new GLTFLoader();
+        <div class="flex overflow-hidden -my-8">
+            <ul class="flex items-center w-full py-8">
+                <li class="px-3 md:px-4 flex-none">
+                    <figure class="bg-white rounded-xl w-80 md:w-xl">
+                        <img class="rounded-t-xl" src="./img/people_clon.PNG" alt="people clon image">
+                    <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-green-400 to-blue-500">
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
+                            <span class="text-xs">HTML 5</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/2CSS.svg" alt="html">
+                            <span class="text-xs">CSS 3</span>
+                        </div>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="px-3 md:px-4 flex-none">
+                    <figure class="bg-white rounded-xl w-80">
+                        <img class="rounded-t-xl" src="./img/spotify_clon.PNG" alt="">
+                    <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-pink-500 to-purple-600">
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
+                            <span class="text-xs">HTML 5</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/2CSS.svg" alt="html">
+                            <span class="text-xs">CSS 3</span>
+                        </div>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="px-3 md:px-4 flex-none">
+                    <figure class="bg-white rounded-xl w-80">
+                        <img class="rounded-t-xl" src="./img/web_alquilator_inicio.PNG" alt="">
+                    <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-yellow-400 to-pink-500">
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
+                            <span class="text-xs">HTML 5</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/bootsrap.png" alt="html">
+                            <span class="text-xs">CSS 3</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/angular.png" alt="html">
+                            <span class="text-xs">Angular</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/mongodb.png" alt="html">
+                            <span class="text-xs">MongoDB</span>
+                        </div>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="px-3 md:px-4 flex-none">
+                    <figure class="bg-white rounded-xl w-80">
+                        <img class="rounded-t-xl" src="./img/web_alquilator_category.PNG" alt="">
+                    <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-purple-500 to-indigo-700">
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
+                            <span class="text-xs">HTML 5</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/bootsrap.png" alt="html">
+                            <span class="text-xs">CSS 3</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/angular.png" alt="html">
+                            <span class="text-xs">Angular</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/mongodb.png" alt="html">
+                            <span class="text-xs">MongoDB</span>
+                        </div>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="px-3 md:px-4 flex-none">
+                    <figure class="bg-white rounded-xl w-80">
+                        <img class="rounded-t-xl" src="./img/web_alquilator_userarea.PNG" alt="">
+                    <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-yellow-400 to-red-600">
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
+                            <span class="text-xs">HTML 5</span>
+                        </div>
+                        <div class="rounded-full">
+                            <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/2CSS.svg" alt="html">
+                            <span class="text-xs">CSS 3</span>
+                        </div>
+                    </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-        const texture = new THREE.TextureLoader().load(
-            'textures/ALA_DERE_baseColor.png'
-        );
-        const material = new THREE.MeshBasicMaterial({ map: texture });
+    <section id="section4" class="max-w-7xl mx-auto h-screen text-center">
+        <h1 class="text-white text-5xl inline-block mb-20">Let's get in touch <span>🤝</span></h1>
+        <p></p>
+        <!-- Chat Bot  -->
+        <div id="popup" class="hidden box-border max-w-xs h-1/2 rounded fixed right-24 bottom-14">
+            <div class="bg-black py-5 px-4 flex justify-between text-white rounded-t-md">
+                <div class="mr-2">
+                    <img class="rounded-full h-12 w-12" src="./img/profile-pic.jpg" alt="">
+                </div>
+                <div class="flex flex-col justify-between text-left mr-12">
+                    <span class="font-medium">Joselyn Bot</span>
+                    <span class="text-gray-300 opacity-50">Ask me a question!</span>
+                </div>
+                <button id="close-chat" class="flex justify-end p-2">
+                    <svg class="stroke-current fill-current w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+            </div>
+            <div class="box-border h-96 bg-white rounded-b-md pl-4 py-4 pr-10 overflow-auto text-left text-sm">
+                <div class="border border-gray-400 rounded-lg mb-2 px-4 py-2">Hi I'm Joselyn Bot 🤖</div>
+                <div class="border border-gray-400 rounded-lg mb-2 px-4 py-2">I'm just like Joselyn, but a far better conversationalist 😉</div>
+                <div class="border border-gray-400 rounded-lg mb-2 px-4 py-2">How can I help you today?</div>
+                <div class="">
+                    <button class="text-left rounded-full px-4 py-2 bg-yellow-100 hover:bg-yellow-200 mb-2">👋 I just want to say hello</button>
+                    <button class="text-left rounded-full px-4 py-2 bg-yellow-100 hover:bg-yellow-200 mb-2">🤔 Looking for more information</button>
+                    <button class="text-left rounded-full px-4 py-2 bg-yellow-100 hover:bg-yellow-200 mb-2">💼 I'd like to hire you!</button>
+                </div>
+            </div>
+        </div>
 
-        var obj;
-        
-        loader.load("scene.gltf", function (gltf) {
+    </section>
 
-            scene.add( gltf.scene );
-
-            // gltf.animations; // Array<THREE.AnimationClip>
-            // gltf.scene; // THREE.Group
-            // gltf.scenes; // Array<THREE.Group>
-            // gltf.cameras; // Array<THREE.Camera>
-            // gltf.asset; // Object
-
-            obj = gltf.scene;
-            scene.add(gltf.scene);
-            scene.background = new THREE.Color(0x222222);
-            var light = new THREE.HemisphereLight(0xffffff, 0x000000, 10);
-            scene.add(light);
-            camera.position.set(0, 10, 200);
-
-            animate()
-
-        }, 
-        
-        undefined, function(error){
-            console.error(error)
-        });
-
-        function animate() {
-            // requestAnimationFrame(animate);
-            // obj.rotation.y += 0.01;
-            renderer.render(scene, camera);
-        }
-
-    </script>
+    <footer class="max-w-screen-2xl mx-auto my-8">
+        <hr class="opacity-25" >
+        <p class="opacity-50 text-gray-400 text-sm text-center my-8">Designed and built by Joselyn Cáceres with HTML5, Tailwind, JQuery</p>
+    </footer>
+    <script src="./porfolio.js"></script>
 </body>
 </html>
