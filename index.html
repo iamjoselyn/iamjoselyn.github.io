@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./fa/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="my-bg-grey">
-    <section id="section1" class="box-border h-screen w-full">
+<body class="my-bg-grey relative">
+    <section id="section1" class="box-border relative h-screen w-full ">
         <span class="font-grot text-white text-md tracking-widest fixed top-6 left-10">JOSELYN CACERES</span>
         <div class="fixed top-6 right-10">
             <ul class="">
@@ -103,9 +103,9 @@
                 <p class="text-center text-sm mt-4 text-gray-400">This is me with some filters ...</p>
             </figure>
             <article class="w-1/2 mx-8">
-                <h2 class="text-5xl mb-8"> <span>👋</span> Hi there!</h2>
-                <p class="text-5xl mb-8">I'm a <span class="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500">Web Developer</span> based in Peru China Spain.</p>
-                <p class="text-xl whitespace-pre-wrap">Glad to meet you! 
+                <h2 id="bioTitle" class="text-5xl mb-8"> <span>👋</span> Hi there!</h2>
+                <p id="bioSub" class="text-5xl mb-8">I'm a <span class="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500">Web Developer</span> based in Peru China Spain.</p>
+                <p id="bioPara" class="text-xl whitespace-pre-wrap">Glad to meet you! 
 I'm Joselyn, a Full Stack Web Developer. I got into this industry by curiosity and I'm still enjoying being part of it!
                 
 I was born in Peru but I grow up in Europe. I moved to China to finish my Bachelor Degree and I ended up living in New Zealand. 
@@ -119,11 +119,12 @@ Back in Spain, I specialized as a Full Stack Dev and I've been freelancing for t
         <h1 class="text-white text-5xl inline-block mb-20">Latests Projects<span>👩‍💻</span></h1>
         <p class="mb-20 text-white text-xl">Here are some of the projects I've been working on recently. Want to see more? <a href="#" class="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500">Email me</a></p>
         
-        <div class="flex overflow-hidden -my-8">
-            <ul class="flex items-center w-full py-8">
+        <button id="previous">Previous</button>
+        <div id="" class="flex overflow-hidden -my-8">
+            <ul id="slidercont" class="flex items-center w-full py-8">
                 <li class="px-3 md:px-4 flex-none">
                     <figure class="bg-white rounded-xl w-80 md:w-xl">
-                        <img class="rounded-t-xl" src="./img/people_clon.PNG" alt="people clon image">
+                        <a href="https://iamjoselyn.github.io/people-web-clone/"><img class="rounded-t-xl" src="./img/people_clon.PNG" alt="people clon image"></a>
                     <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-green-400 to-blue-500">
                         <div class="rounded-full">
                             <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
@@ -138,7 +139,7 @@ Back in Spain, I specialized as a Full Stack Dev and I've been freelancing for t
                 </li>
                 <li class="px-3 md:px-4 flex-none">
                     <figure class="bg-white rounded-xl w-80">
-                        <img class="rounded-t-xl" src="./img/spotify_clon.PNG" alt="">
+                        <a href="https://iamjoselyn.github.io/Spotify-clon/"><img class="rounded-t-xl" src="./img/spotify_clon.PNG" alt=""></a>
                     <figcaption class="flex items-center space-x-4 px-6 py-4 bg-gradient-to-br rounded-b-xl from-pink-500 to-purple-600">
                         <div class="rounded-full">
                             <img class="bg-white w-10 h-10 p-1 rounded-full" src="./img/1HTML.svg" alt="html">
@@ -214,6 +215,7 @@ Back in Spain, I specialized as a Full Stack Dev and I've been freelancing for t
                 </li>
             </ul>
         </div>
+        <button id="next">Next</button>
     </section>
 
     <section id="section4" class="max-w-7xl mx-auto h-screen text-center">
@@ -254,5 +256,6 @@ Back in Spain, I specialized as a Full Stack Dev and I've been freelancing for t
         <p class="opacity-50 text-gray-400 text-sm text-center my-8">Designed and built by Joselyn Cáceres with HTML5, Tailwind, JQuery</p>
     </footer>
     <script src="./porfolio.js"></script>
+    <script src="./slider.js"></script>
 </body>
 </html>
